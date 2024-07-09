@@ -56,8 +56,12 @@ For the aspect of Local Storage, I made use of the AsyncStorage to store the Car
 The first part for each screen mainly involved installiing the required packages then afterwards importaing it in each file. The rest of the process is gievn below as: <br> 
 
 ### HomeScreen:
+In HomePage.js, AsyncStorage is used in the addToCheckout function to store items when they are added to the cart.
 
 ### CartScreen
+For CheckOutComponent.js, AsyncStorage is used in the removeFromCheckout function to remove items from the cart.
+<br>
+In both HomePage.js and CheckOutComponent.js, AsyncStorage is used to persistently store and retrieve the list of checkout items (checkoutItems). It ensures that the items added to the cart remain available even if the app is closed and reopened, providing a seamless shopping experience for users. Alerts are used to notify users when items are successfully added or removed from the cart.<br>
 
 # Screenshot of app:
 <br>
@@ -82,3 +86,16 @@ The first part for each screen mainly involved installiing the required packages
 
 <br>
 
+![s6](./Screenshots/S6.png)
+
+<br>
+
+![s7](./Screenshots/S7.png)
+
+<br>
+
+![s8](./Screenshots/S8.png)
+
+<br>
+
+![s9](./Screenshots/S9.png)
